@@ -1,0 +1,208 @@
+<!--
+theme name:     PlayStation
+version         1.0
+-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+   <formatVersion>4</formatVersion>
+   
+
+<feature supported="carousel">
+   <view name="system">
+      <carousel name="systemcarousel">
+        <type>vertical</type>
+        <pos>0.00 0.020</pos>
+        <size>0.500 0.92</size>
+        <logoScale>1.2</logoScale>
+        <logoSize>0.35 0.11</logoSize>
+        <color>00000000</color>
+        <maxLogoCount>3</maxLogoCount>
+      </carousel>
+      <image name="background" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <path>./_inc/images/background.png</path>
+      </image>
+        <image name="balls" extra="true">
+         <origin>0 0</origin>
+         <pos>.15 .05</pos>
+         <maxSize>.60 .86</maxSize>
+         <path>./_inc/images/balls.png</path>
+         <zIndex>10</zIndex>
+      </image>
+       <image name="mainmenu" extra="true">
+         <origin>1 0.5</origin>
+         <pos>.90 0.10</pos>
+         <maxSize>0.20 0.20</maxSize>
+          <path>./_inc/images/mainmbox.png</path>
+      </image>
+      <text name="systemInfo">
+         <pos>0.3 0.935</pos>
+         <backgroundColor>00000000</backgroundColor>
+         <color>FFFFFF</color>
+         <fontPath>./_inc/fonts/RobotoCondensed-Light.ttf</fontPath>
+	 <fontSize>0.03</fontSize>
+      </text>
+      		<text name="logoText">
+			<fontPath>./_inc/fonts/RobotoCondensed-Light.ttf</fontPath>
+			<color>FFFFFF</color>
+			<forceUppercase>true</forceUppercase>
+		</text>
+   </view>
+</feature>
+
+   <view name="system,basic,detailed,video">
+      <helpsystem name="help">
+         <textColor>FFFFFF</textColor>
+         <iconColor>FFFFFF</iconColor>
+         <fontPath>./_inc/fonts/RobotoCondensed-Light.ttf</fontPath>
+         <fontSize>0.03</fontSize>
+      </helpsystem>
+   </view>
+
+   <view name="basic,detailed,video">
+      <textlist name="gamelist">
+         <pos>0.03 0.163</pos>
+         <size>0.4 0.75</size>
+         <selectorColor>0000ff50</selectorColor>
+         <selectedColor>00ffff</selectedColor>
+         <primaryColor>FFFFFF</primaryColor>
+         <secondaryColor>00ffff</secondaryColor>
+         <fontPath>./_inc/fonts/RobotoCondensed-Light.ttf</fontPath>
+         <fontSize>0.032</fontSize>
+         <forceUppercase>1</forceUppercase>
+         <scrollSound>./_inc/sound/click.wav</scrollSound>
+         <alignment>center</alignment>
+      </textlist>
+   </view>
+
+   <view name="detailed,video,basic">
+      <image name="background" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <path>./_inc/images/background.png</path>
+      </image>
+        <image name="ps1dots" extra="true">
+         <origin>.5 0.0</origin>
+         <pos>0.7 0.25</pos>
+         <maxSize>.5 .60</maxSize>
+         <path>./_inc/images/ps1dots.png</path>
+      </image>
+             <image name="gamebox" extra="true">
+         <origin>0 0.5</origin>
+         <pos>.03 0.10</pos>
+         <maxSize>0.15 0.15</maxSize>
+          <path>./_inc/images/gamesbox.png</path>
+      </image>
+        <image name="logo">
+         <origin>0.5 0.5</origin>
+         <pos>0.70 0.125</pos>
+         <maxSize>0.28 0.28</maxSize>
+      </image>
+        <textlist name="gamelist">
+         <pos>0.03 0.163</pos>
+         <size>0.4 0.75</size>
+         <alignment>left</alignment>
+      </textlist>
+   </view>
+   
+   <view name="detailed">
+      <image name="md_image">
+         <origin>.5 .5</origin>
+         <pos>0.70 0.55</pos>
+         <maxSize>0.30 0.50</maxSize>
+      </image>
+   </view>
+   
+       <view name="detailed, video">
+
+        <text name="md_lbl_players">
+            <fontSize>0.024</fontSize>
+            <forceUppercase>1</forceUppercase>
+            <size>0 0</size>
+        </text>
+
+        <text name="md_players, md_genre, md_developer, md_publisher">
+            <fontSize>0.024</fontSize>
+            <size>0 0</size>
+            <forceUppercase>1</forceUppercase>
+        </text>
+
+        <datetime name="md_releasedate, md_lastplayed">
+            <fontSize>0.024</fontSize>
+            <forceUppercase>1</forceUppercase>
+        </datetime>
+
+        <text name="md_description">
+            <fontSize>0.023</fontSize>
+        </text>
+
+        <text name="md_lbl_rating, md_lbl_lastplayed, md_lbl_playcount, md_playcount, md_publisher, md_lbl_genre, md_lbl_developer, md_lbl_publisher, md_lbl_releasedate">
+            <fontPath>./_inc/fonts/AdobeBlank.ttf</fontPath>
+            <pos>0 0</pos>
+            <size>0 0</size>
+        </text>
+
+        <text name="md_description">
+            <fontPath>./_inc/fonts/AdobeBlank.ttf</fontPath>
+            <fontSize>0.021</fontSize>
+            <lineSpacing>1.55</lineSpacing>
+            <pos>0.0345 0.69</pos>
+            <size>0.355 0.195</size>
+        </text>
+
+            <text name="md_genre, md_developer, md_publisher,md_lastplayed,md_rating,md_players,md_releasedate">
+                <size>0.13 0.023</size>
+            </text>
+
+            <datetime name="md_lastplayed">
+                <fontPath>./_inc/fonts/AdobeBlank.ttf</fontPath>
+                <pos>0.035 0.645</pos>
+            </datetime>
+            <text name="md_lbl_players">
+                <fontPath>./_inc/fonts/AdobeBlank.ttf</fontPath>
+                <pos>0.30 0.640</pos>
+            </text>
+            <text name="md_players">
+                <fontPath>./_inc/fonts/AdobeBlank.ttf</fontPath>
+                <pos>0.37 0.645</pos>
+            </text>
+            <text name="md_genre">
+                <fontPath>./_inc/fonts/AdobeBlank.ttf</fontPath>
+                <alignment>left</alignment>
+                <pos>0.035 0.898</pos>
+            </text>
+            <text name="md_developer">
+                <fontPath>./_inc/fonts/AdobeBlank.ttf</fontPath>
+                <alignment>center</alignment>
+                <pos>0.14 0.898</pos>
+            </text>
+            <datetime name="md_releasedate">
+                <fontPath>./_inc/fonts/AdobeBlank.ttf</fontPath>
+                <pos>0.313 0.898</pos>
+            </datetime>
+
+    </view>
+   
+   <feature supported="video">
+
+		<view name="video">
+
+			<video name="md_video">
+				<pos>0.70 0.55</pos>
+				<maxSize>0.30 0.5</maxSize>
+				<origin>0.5 0.5</origin>			
+				<delay>0.02</delay>
+				  <default></default>
+				<showSnapshotNoVideo>true</showSnapshotNoVideo>
+				<showSnapshotDelay>false</showSnapshotDelay>
+				<zIndex>25</zIndex>
+			</video>
+         
+       </view>
+       </feature>
+
+</theme>
