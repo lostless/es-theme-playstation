@@ -15,7 +15,7 @@
 	<view name="system">
                 <image name="systemsnap" extra="true">
                    <origin>0 .5</origin>
-                   <pos>0.4 0.5</pos>
+                   <pos>0.50 0.5</pos>
                    <maxSize>0.55 0.67</maxSize>
                    <zIndex>11</zIndex>
                    <path>./_inc/systemsnap.png</path>

@@ -7,11 +7,11 @@
 			<path>./_inc/system.png</path>
 		</image>
 		<textlist name="gamelist">
-         <selectorColor>ff000050</selectorColor>
-         <selectedColor>ffa0a0</selectedColor>
+         <selectorColor>0000ff50</selectorColor>
+         <selectedColor>00ffff</selectedColor>
       </textlist>
 	</view>
-		
+
 	<view name="system">
                 <image name="systemsnap" extra="true">
                    <origin>0 .5</origin>
@@ -28,16 +28,6 @@
                    <path>./_inc/system.svg</path>
                 </image>
 	</view>
-	
-	<view name="basic, detailed, video">
-	    <image name="config" extra="true">
-         <origin>0 0.5</origin>
-         <pos>.03 0.10</pos>
-         <maxSize>0.15 0.15</maxSize>
-        <path>./_inc/config.png</path>
-        <zIndex>45</zIndex>
-      </image>
-    </view>
 	
 	<view name="basic">
       <image name="console" extra="true">

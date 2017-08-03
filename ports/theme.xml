@@ -23,7 +23,7 @@
                  <image name="systemlogo" extra="true">
                    <origin>.5 .5</origin>
                    <pos>.7 0.75</pos>
-                   <maxSize>0.35 0.35</maxSize>
+                   <maxSize>0.35 0.20</maxSize>
                    <zIndex>12</zIndex>
                    <path>./_inc/system.svg</path>
                 </image>
